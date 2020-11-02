@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class TV implements Product {
 
-public class TV {
+    @Override
+    public void work() {
+        System.out.println(this.getClass().getSimpleName()+"work.....");
+    }
 }
